@@ -1,0 +1,279 @@
+html {
+    font-size: 12px;
+    width: 1920px;
+}
+
+body {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+}
+
+.main-box {
+    position: relative;
+    width: 65%;
+    height: 233vh;
+    margin: 0 auto;
+    left: 15%;
+    /* border-left: 2px solid #000;
+    border-right: 2px solid #000; */
+}
+
+.logo-box {
+    position: relative;
+    width: 100%;
+    height: 5%;
+    top: 1%;
+    /* border-top: 2px solid #000;
+    border-bottom: 2px solid #000; */
+}
+
+.logo {
+    position: absolute;
+    width: 20%;
+    height: auto;
+    top: 50%;
+    left: 12%;
+    transform: translate(-50%, -50%);
+}
+
+.eng {
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    font-size: 2rem;
+    text-decoration: none;
+    color: #000;
+    transform: translate(-50%, -50%);
+}
+
+.jpy {
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    font-size: 2rem;
+    color: #000;
+    transform: translate(-50%, -50%);
+}
+
+.map-box {
+    position: relative;
+    padding-top: 8%;
+    width: 100%;
+    height: 32%;
+}
+
+.map-img {
+    position: relative;
+    padding-top: 2%;
+    height: 100%;
+    width: 100%;
+}
+
+.service-box {
+    position: relative;
+    top: 1%;
+    width: 100%;
+    height: 29.5%;
+    /* border-top: 2px solid #000;
+    border-bottom: 2px solid #000; */
+}
+
+.service-img {
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    width: 25%;
+    height: auto;
+    transform: translate(-50%, -50%);
+}
+
+.service1 {
+    position: absolute;
+    padding-top: 16%;
+    padding-left: 0.8%;
+    width: 100%;
+    height: 100%;
+}
+
+.service1-box1 {
+    position: relative;
+    background-color: #4473c5;
+    width: 24%;
+    height: 20%;
+}
+
+.service1-box2 {
+    position: relative;
+    background-color: #d4d9ec;
+    width: 24%;
+    height: 58%;
+}
+
+.service2 {
+    position: absolute;
+    padding-top: 16%;
+    left: 25.6%;
+    width: 100%;
+    height: 100%;
+}
+
+.service2-box1 {
+    position: relative;
+    background-color: #4473c5;
+    width: 24%;
+    height: 20%;
+}
+
+.service2-box2 {
+    position: relative;
+    background-color: #d4d9ec;
+    margin-top: 0;
+    width: 24%;
+    height: 58%;
+}
+
+.service3 {
+    position: absolute;
+    padding-top: 16%;
+    left: 50.4%;
+    width: 100%;
+    height: 100%;
+}
+
+.service3-box1 {
+    position: relative;
+    background-color: #4473c5;
+    width: 24%;
+    height: 20%;
+}
+
+.service3-box2 {
+    position: relative;
+    background-color: #d4d9ec;
+    margin-top: 0;
+    width: 24%;
+    height: 58%;
+}
+
+.service4 {
+    position: absolute;
+    padding-top: 16%;
+    left: 75.2%;
+    width: 100%;
+    height: 100%;
+}
+
+.service4-box1 {
+    position: relative;
+    background-color: #4473c5;
+    width: 24%;
+    height: 20%;
+}
+
+.service4-box2 {
+    position: relative;
+    background-color: #d4d9ec;
+    margin-top: 0;
+    width: 24%;
+    height: 58%;
+}
+
+.service-box1-fonts {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-size: 2rem;
+    white-space: nowrap;
+    transform: translate(-50%, -50%);
+}
+
+.service-box2-fonts {
+    position: absolute;
+    left: 50%;
+    top: 6%;
+    width: 90%;
+    font-size: 2.2rem;
+    line-height: 1.5;
+    text-align: center;
+    transform: translate(-50%, 0);
+}
+
+.contact-box {
+    position: relative;
+    top: 6%;
+    width: 100%;
+    height: 28%;
+    /* border-bottom: 2px solid #000; */
+}
+
+.contact-img {
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    width: 25%;
+    height: auto;
+    transform: translate(-50%, -50%);
+}
+
+.contact-email-box {
+    position: absolute;
+    top: 40%;
+    left: 1.2%;
+    width: 45%;
+    height: 60%;
+    border: 2px solid #e6e6e6;
+}
+
+.contact-address-box {
+    position: absolute;
+    top: 40%;
+    right: 2%;
+    width: 50%;
+    height: 60%;
+    border: 2px solid #e6e6e6;
+}
+
+.contact-email-info-title {
+    position: absolute;
+    top: 8%;
+    left: 5%;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #5f5f5f;
+}
+
+.contact-email-info-address {
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    font-size: 1.8rem;
+    line-height: 1.8;
+    color: #5f5f5f;
+}
+
+.contact-email-whatsapp-img {
+    position: absolute;
+    top: 65%;
+    left: 6%;
+    width: 15%;
+    height: auto;
+}
+
+.contact-email-wechat-img {
+    position: absolute;
+    top: 65%;
+    left: 46%;
+    width: 15%;
+    height: auto;
+}
+
+.contact-address-info {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    font-size: 2rem;
+    line-height: 1.8;
+    color: #5f5f5f;
+}
