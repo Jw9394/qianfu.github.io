@@ -1,279 +1,285 @@
-html {
-    font-size: 12px;
-    width: 1920px;
-}
-
 body {
-    align-items: center;
-    justify-content: center;
-    display: flex;
+    width: 65vw;
+    height: 230vh;
     margin: 0 auto;
+    /* border: 2px solid #000000; */
 }
 
 .main-box {
-    position: relative;
-    width: 65%;
-    height: 233vh;
-    margin: 0 auto;
-    left: 15%;
-    /* border-left: 2px solid #000;
-    border-right: 2px solid #000; */
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
 }
 
 .logo-box {
-    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
-    height: 5%;
-    top: 1%;
-    /* border-top: 2px solid #000;
-    border-bottom: 2px solid #000; */
+    height: 10%;
+    margin-top: 5%;
+    order: 1;
 }
 
-.logo {
-    position: absolute;
-    width: 20%;
-    height: auto;
-    top: 50%;
-    left: 12%;
-    transform: translate(-50%, -50%);
+.logo-img-box {
+    display: flex;
+    width: 100%;
+    margin-left: 2%;
+}
+
+.logo-img {
+    display: flex;
+    width: 25%;
+}
+
+.link-box {
+    display: flex;
+    gap: 40%;
+    margin-right: 8%;
+    font-size: 1.2vw;
 }
 
 .eng {
-    position: absolute;
-    right: 10%;
-    top: 50%;
-    font-size: 2rem;
-    text-decoration: none;
     color: #000;
-    transform: translate(-50%, -50%);
+    text-decoration: none;
 }
 
 .jpy {
-    position: absolute;
-    right: 5%;
-    top: 50%;
-    font-size: 2rem;
     color: #000;
-    transform: translate(-50%, -50%);
 }
 
 .map-box {
-    position: relative;
-    padding-top: 8%;
+    display: flex;
     width: 100%;
-    height: 32%;
+    margin-top: 5%;
+    order: 2;
 }
 
 .map-img {
-    position: relative;
-    padding-top: 2%;
-    height: 100%;
+    display: flex;
     width: 100%;
-}
-
-.service-box {
-    position: relative;
-    top: 1%;
-    width: 100%;
-    height: 29.5%;
-    /* border-top: 2px solid #000;
-    border-bottom: 2px solid #000; */
 }
 
 .service-img {
-    position: absolute;
-    top: 13%;
-    left: 50%;
-    width: 25%;
+    display: flex;
+    align-self: center;
+    margin-top: 8%;
+    width: 20%;
     height: auto;
-    transform: translate(-50%, -50%);
+    order: 3;
+}
+
+.service-msg {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 8%;
+    order: 4;
 }
 
 .service1 {
-    position: absolute;
-    padding-top: 16%;
-    padding-left: 0.8%;
-    width: 100%;
-    height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 24%;
+    height: 40vh;
 }
 
 .service1-box1 {
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #4473c5;
-    width: 24%;
-    height: 20%;
+    width: 100%;
+    height: 25%;
 }
 
 .service1-box2 {
-    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     background-color: #d4d9ec;
-    width: 24%;
-    height: 58%;
-}
-
-.service2 {
-    position: absolute;
-    padding-top: 16%;
-    left: 25.6%;
     width: 100%;
-    height: 100%;
-}
-
-.service2-box1 {
-    position: relative;
-    background-color: #4473c5;
-    width: 24%;
-    height: 20%;
-}
-
-.service2-box2 {
-    position: relative;
-    background-color: #d4d9ec;
-    margin-top: 0;
-    width: 24%;
-    height: 58%;
-}
-
-.service3 {
-    position: absolute;
-    padding-top: 16%;
-    left: 50.4%;
-    width: 100%;
-    height: 100%;
-}
-
-.service3-box1 {
-    position: relative;
-    background-color: #4473c5;
-    width: 24%;
-    height: 20%;
-}
-
-.service3-box2 {
-    position: relative;
-    background-color: #d4d9ec;
-    margin-top: 0;
-    width: 24%;
-    height: 58%;
-}
-
-.service4 {
-    position: absolute;
-    padding-top: 16%;
-    left: 75.2%;
-    width: 100%;
-    height: 100%;
-}
-
-.service4-box1 {
-    position: relative;
-    background-color: #4473c5;
-    width: 24%;
-    height: 20%;
-}
-
-.service4-box2 {
-    position: relative;
-    background-color: #d4d9ec;
-    margin-top: 0;
-    width: 24%;
-    height: 58%;
+    height: 75%;
 }
 
 .service-box1-fonts {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    font-size: 2rem;
-    white-space: nowrap;
-    transform: translate(-50%, -50%);
+    display: flex;
+    flex-shrink: 0;
+    font-size: 1.2vw;
+    line-height: 2vw;
 }
 
 .service-box2-fonts {
-    position: absolute;
-    left: 50%;
-    top: 6%;
-    width: 90%;
-    font-size: 2.2rem;
-    line-height: 1.5;
+    display: flex;
     text-align: center;
-    transform: translate(-50%, 0);
+    word-wrap: break-word;
+    width: 75%;
+    margin-top: 10%;
+    font-size: 1.2vw;
+    line-height: 2vw;
 }
 
-.contact-box {
-    position: relative;
-    top: 6%;
+.service2 {
+    display: flex;
+    width: 24%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.service2-box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4473c5;
     width: 100%;
-    height: 28%;
-    /* border-bottom: 2px solid #000; */
+    height: 25%;
+}
+
+.service2-box2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #d4d9ec;
+    width: 100%;
+    height: 75%;
+}
+
+.service3 {
+    display: flex;
+    width: 24%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.service3-box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4473c5;
+    width: 100%;
+    height: 25%;
+}
+
+.service3-box2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #d4d9ec;
+    width: 100%;
+    height: 75%;
+}
+
+.service4 {
+    display: flex;
+    width: 24%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.service4-box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4473c5;
+    width: 100%;
+    height: 25%;
+}
+
+.service4-box2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #d4d9ec;
+    width: 100%;
+    height: 75%;
 }
 
 .contact-img {
-    position: absolute;
-    top: 13%;
-    left: 50%;
-    width: 25%;
+    display: flex;
+    align-self: center;
+    margin-top: 8%;
+    width: 20%;
     height: auto;
-    transform: translate(-50%, -50%);
+    order: 5;
+}
+
+.contact-allbox {
+    height: 100%;
+    order: 6;
+}
+
+.contact-box {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    gap: 1.5625%;
 }
 
 .contact-email-box {
-    position: absolute;
-    top: 40%;
-    left: 1.2%;
-    width: 45%;
-    height: 60%;
+    display: flex;
+    flex-direction: column;
+    width: 42%;
+    height: 75%;
+    margin-left: 0.5%;
     border: 2px solid #e6e6e6;
 }
 
-.contact-address-box {
-    position: absolute;
-    top: 40%;
-    right: 2%;
-    width: 50%;
-    height: 60%;
-    border: 2px solid #e6e6e6;
+.contact-email-info-font {
+    margin-left: 5%;
+    margin-top: 5%;
 }
 
 .contact-email-info-title {
-    position: absolute;
-    top: 8%;
-    left: 5%;
-    font-size: 2rem;
+    font-size: 1vw;
     font-weight: bold;
     color: #5f5f5f;
 }
 
 .contact-email-info-address {
-    position: absolute;
-    top: 15%;
-    left: 5%;
-    font-size: 1.8rem;
+    font-size: 1vw;
     line-height: 1.8;
     color: #5f5f5f;
 }
 
+.contact-email-info-img-box{
+    display: flex;
+    margin-left: 2.5%;
+    margin-top: 5%;
+    gap: 21.5%;
+}
+
 .contact-email-whatsapp-img {
-    position: absolute;
-    top: 65%;
-    left: 6%;
-    width: 15%;
+    width: 20%;
     height: auto;
 }
 
 .contact-email-wechat-img {
-    position: absolute;
-    top: 65%;
-    left: 46%;
-    width: 15%;
+    width: 20%;
     height: auto;
 }
 
+.contact-address-box {
+    display: flex;
+    width: 52%;
+    flex-direction: column;
+}
+
+.contact-address-map {
+    width: 100%;
+    height: 75%;
+    border: 2px solid #e6e6e6;
+}
+
+.contact-address-map iframe {
+    width: 100%;
+    height: 100%;
+}
+
 .contact-address-info {
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    font-size: 2rem;
-    line-height: 1.8;
+    margin-top: 12%;
+    margin-left: 45%;
+    font-size: 1vw;
     color: #5f5f5f;
 }
